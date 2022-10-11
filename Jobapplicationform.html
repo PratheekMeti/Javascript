@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>My_webpage</title>
+        <style>
+            *
+            {
+            background-color:cyan;
+                text-align: center;
+                text-align: justify-all
+            }
+        </style>
+    </head>
+    <h1 style="color: black;background-color:aqua;text-align: center">JOB APPLICATION FORM</h1>
+    <form onsubmit="return fun()" action="https://www.infosys.com/"style="border: solid 2px">
+        <br>
+        <h3 style="color:blueviolet;text-align: center">SOFTWARE ENGINEER ROLE</h3>
+            <br>
+            <label >First Name</label>
+            <input id="m1" type=text >
+            <span id="msg" style="color:red">*</span>
+        <br><br>
+        <label>Last Name</label>
+        <input id="m2" type=text >
+        <span id="ms" style="color:red">*</span>
+        <br><br>
+        <label>PhoneNumber</label>
+        <input id="m3" type=text >
+        <span id="ms3" style="color:red">*</span>
+        <br><br>
+        <label>Email</label>
+        <input id="m4" type="email">
+        <span id="ms4" style="color:red">*</span>
+        <br><br>
+        <label>Password</label>
+        <input id="m5" type="Password">
+        <span id="ms5" style="color:red">*</span>
+        <br><br>
+        <label>Date of Birth</label>
+        <input type="date" min="1990-01-01" max="2001-12-01">
+        <br><br>
+        <label>Gender</label>
+        <span id="ms6" style="color:red">*</span>
+        <input type="radio" value="male" name="Gender">Male
+         <input type="radio" value="female" name="Gender">Female
+         <input type="radio" value="Others" name="Gender">Others
+        <br><br>
+        <label>Select your country</label>
+        <select>
+            <option>choose</option>
+            <option>India</option>
+            <option>US</option>
+            <option>England</option>
+            <option>Russia</option>
+            <option>UK</option>
+        </select>
+        <br><br>
+        <label>Skill Set</label>
+        <span id="ms7" style="color:red">*</span>
+        <input type="checkbox">Java
+        <input type="checkbox">SQL
+        <input type="checkbox">Python        
+        <input type="checkbox">WEb
+        <input type="checkbox">Testing
+        <br><br>
+        <label>Upload Image</label>
+        <input type="file">
+        <br><br>
+        <label>Upload Resume</label>
+        <span id="m8" style="color:red">*</span>
+        <input type="file">
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+        <br><br>
+        <label> </label>
+        <span id="ref" style="color:red; text-decoration:crimson;" input type="text">
+        </form>
+        <script src="jaf.js"></script>
+        </html>
